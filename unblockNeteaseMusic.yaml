@@ -71,7 +71,7 @@ proxies:
 #  http
   - name: 🎵 解锁节点
     type: http
-    server: [49.237.76.33]
+    server: [49.234.76.33]
     port: [723]
 
 proxy-groups:
