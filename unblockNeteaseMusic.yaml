@@ -34,7 +34,7 @@ rules:
   - DOMAIN,iadmusicmatvideo.music.126.net,REJECT
  
   # Netease Music
-  - DOMAIN,api.iplay.163.com
+  - DOMAIN,api.iplay.163.com,Netease Music
   - DOMAIN,apm3.music.163.com
   - DOMAIN,apm.music.163.com
   - DOMAIN,interface3.music.163.com
