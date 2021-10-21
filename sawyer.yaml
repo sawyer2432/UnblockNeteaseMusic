@@ -69,4 +69,4 @@ rules:
   - IP-CIDR,223.252.199.67/32,no-resolve
  
 # Final
-- MATCH,DIRECT
+  - MATCH,DIRECT
