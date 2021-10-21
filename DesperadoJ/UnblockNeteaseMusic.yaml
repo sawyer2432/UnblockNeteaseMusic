@@ -17,7 +17,6 @@ proxy-providers:
   NeteaseMusic:
     type: http
     path: ./Proxy/NeteaseMusic.yaml
-    url: https://raw.githubusercontent.com/sawyer2432/UnblockNeteaseMusic/main/DesperadoJ/Proxy/NeteaseMusic.yaml
     interval: 3600
     health-check:
       enable: true
@@ -25,7 +24,7 @@ proxy-providers:
       interval: 300
 
 proxy-groups:
-  - name: 🎵 网易云音乐
+  - name: 网易云音乐
     type: select
     use:
       - NeteaseMusic
@@ -37,7 +36,6 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/NeteaseMusic.yaml
-    url: https://raw.githubusercontent.com/sawyer2432/UnblockNeteaseMusic/main/DesperadoJ/RuleSet/NeteaseMusic.yaml
     interval: 86400
 
 rules:
@@ -48,7 +46,7 @@ rules:
   - DOMAIN,iadmusicmatvideo.music.126.net,REJECT
 
   # Netease Music
-  - RULE-SET,NeteaseMusic,🎵 网易云音乐
+  - RULE-SET,NeteaseMusic,网易云音乐
 
   # Final
   - MATCH,DIRECT
