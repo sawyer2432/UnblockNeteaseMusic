@@ -24,9 +24,11 @@ dns:
 
 proxies:
 - name: "UnblockMusic"
-  type: http
+  type: ss
   server: 49.234.76.33
-  port: 723
+  port: 7070
+  cipher:chacha20-ietf-poly1305
+  password: yifjh3
 
 proxy-groups:
 - name: "Netease Music"
