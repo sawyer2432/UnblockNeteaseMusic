@@ -2,6 +2,6 @@ proxies:
   - name: music163
     type: ss
     server: 49.234.76.33
-    port: 723
-    cipher: aes-128-gcm
-    password: thisisfree
+    port: 7070
+    cipher: chacha20-ietf-poly1305
+    password: yifjh3
